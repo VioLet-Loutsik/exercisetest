@@ -1,0 +1,29 @@
+.blockA {
+  border: 2px solid;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1%;
+  border: none;
+  text-align: center;
+  border: 2px solid rgb(162, 0, 255);
+}
+
+.blockA p2 {
+  color: red;
+}
+
+.blockA p2::before {
+  content: "_____";
+  position: absolute;
+  left: 15px;
+  top: 26px;
+}
+.blockA p2::after {
+  content: ".";
+  position: absolute;
+  right: 55px;
+  color: black;
+}
